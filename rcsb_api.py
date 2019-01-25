@@ -34,7 +34,7 @@ Input:
 Output:
     pdb id list : string list -- a list of PDB IDs returned from the API
 '''
-def query_for_pdb_ids(queryText, url="http://www.rcsb.org/pdb/rest/search",
+def query_for_pdb_ids(queryText=queryText, url="http://www.rcsb.org/pdb/rest/search",
     verbose=False):
 
     if verbose:
